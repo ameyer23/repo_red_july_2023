@@ -1,3 +1,3 @@
 # repo_red_july_2023
 
-This repo is for the 2023 July Red Cohor!
+This is my LUIT 2023 Red Cohort Repo.
