@@ -104,5 +104,25 @@ if answer_a == 'y':
          print('Sorry to hear that.')
 else:
     print('Sorry to hear that.')
+
+    
+
+ 
+
+##Refund Policy Helper
+#short way, chained
+#No matter when you bought it, when the item broke down through no fault of your own.
+
+
+days_since_purch = int(input('How many days ago was your purchase? '))
+item_used = input('Was the item used? y/n: ')
+item_broken = input('Is the item broken? y/n: ')
+
+if(is_broken == 'y' or (purchase_days_ago <= 10 and is_used == 'n')):
+  print('You can get a refund.')
+else:
+  print('You cannot get a refund.')
+
+
     
     
