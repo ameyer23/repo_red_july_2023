@@ -46,7 +46,6 @@ else:
 
 ###############################################################################
 
-
 '''
 Complex
 Turn the above into a Function and execute the Function to verify it works.
@@ -59,7 +58,7 @@ import string
 instance_amount = int(input('Amount of names needed: '))
 dept = input('Department name: ')
 
-#define the function
+#define the function: wrap code from Advanced section within a new function
 def random_name_generator(instance_amount, dept, length=10):
     if dept.lower() in ['marketing', 'accounting', 'finops']:
         for name in range(instance_amount):
@@ -69,5 +68,5 @@ def random_name_generator(instance_amount, dept, length=10):
         print('Your department is not eligible for name randomization')
 
 
-#call the function
+#Call the function
 random_name_generator(instance_amount, dept)
