@@ -179,3 +179,24 @@ for row in cells:
 
 table = [[i for i in range(1, 6)] for j in range(4)]
 print(table)
+
+
+
+'''
+Adding and Multiplying Lists
+'''
+
+#Example 1: adding lists using +
+list_us = ['New York City', 'Chicago']
+list_uk = ['Londong', 'Bristol']
+list_all = list_us + list_uk
+print(list_all)
+
+#Example 2: mutiplying lists
+list_numbers = [0,1] * 10
+print(list_numbers)
+
+print('we are all done with this part.')
+
+
+
